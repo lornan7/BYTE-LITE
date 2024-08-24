@@ -7,28 +7,28 @@
   "succes_url": "/",
   "stack": "container",
   "env": {
-    "PREFIX": {
+    "PREFIX": .
       "description": "choose your prefix of bot",
       "value": ".",
       "required": true
     },
     "AUTO_READ_STATUS": {
-      "description": "Your contact status will be read automatically(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "no",
+      "description": "0741271937(yes ; don't write in capital letter)",
+      "value": "yes",
       "required": false
     },
     "AUTO_DOWNLOAD_STATUS": {
-      "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "no",
+      "description": "0741271937(yes ; don't write in capital letter)",
+      "value": "yes",
       "required": false
     },
     "PM_PERMIT": {
-      "description": "Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "description": "Other user can't use your bot in pm (no ; don't write in capital letter)",
       "value": "no",
       "required": false
     },
     "BOT_NAME": {
-      "description": "put A name for your bot",
+      "description": "dark 🌑🌑",
       "value": "BYTE-V.lite",
       "required": false
     },
@@ -37,8 +37,8 @@
       "value": "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/BYTE-MD-LITE.jpeg",
       "required": false
     },
-    "PUBLIC_MODE": {
-      "description": "type yes to put your bot on public mode or no to put it on private mod",
+    "PRIVATE MODE": {
+      "description": "private mode on",
       "value": "yes",
       "required": false
     },
@@ -58,24 +58,24 @@
       "required": true
     },
     "OWNER_NAME": {
-      "desc": "Your Name",
+      "desc": "darkness",
       "required": false,
       "value": "TalkDrove"
     },
     "CHAT_BOT": {
       "desc": "Put on to allow the bot to chat with people who text you or put off if you don't want the bot to chat with people",
       "required": false,
-      "value": "off"
+      "value": "on"
     },
     "OWNER_NUMBER": {
       "desc": "Your number, don't put '+' and put your area code (e.g., '92')",
       "required": true,
-      "value": "923458017380"
+      "value": "254741271937"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commands",
       "required": false,
-      "value": "3"
+      "value": "1"
     },
     "STARTING_BOT_MESSAGE": {
       "description": "if you don't want starting-bot-message put no else put yes",
